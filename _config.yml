@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: TCloud Moe
+title: TCloud Networking
 subtitle:
 description:
 author:
@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://tcloud.moe
+url: http://net.tcloud.moe
 root: /
 #permalink: :year/:month/:day/:title/
 permalink: :title/
@@ -84,5 +84,5 @@ prism_plugin:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:tcloudlab/it.git
+  repo: root@10.0.0.254:/root/net-guide.git
   branch: master
